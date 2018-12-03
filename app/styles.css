@@ -19,16 +19,23 @@ body {
 
 div {
   width: 360px;
-  height: 360px;
+  height: 120px;
   background-color: purple;
 }
 
 .number-card {
   font-size: 3rem;
+  color: white;
+  /* padding: 20px; */
   border: 3px solid white;
   border-radius: 16px;
   width: 50%;
+  height: 50%;
   text-align: center;
-  margin: calc((100% - 3rem)/2) calc((50%) /2);
+  /* margin: calc((100% - 3rem)/2) calc((50%) /2); */
+  margin: 30px 25%;
   /* vertical-align: middle; */
+}
+.highlight-card {
+  background-color: aqua;
 }
