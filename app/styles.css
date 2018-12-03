@@ -1,3 +1,34 @@
 body {
   color: red;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.number-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  width: 360px;
+  height: 360px;
+  background-color: purple;
+}
+
+.number-card {
+  font-size: 3rem;
+  border: 3px solid white;
+  border-radius: 16px;
+  width: 50%;
+  text-align: center;
+  margin: calc((100% - 3rem)/2) calc((50%) /2);
+  /* vertical-align: middle; */
 }
